@@ -1,0 +1,148 @@
+.index{
+    background: url(../img/spaghetti-g6de4c8ac5_1920.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.menu{
+    background: url(../img/pexels-trang-doan-1092730.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+}
+.reserve{
+    background: url(../img/pexels-rajesh-tp-1624487.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+}
+.form{
+    background: url(../img/pexels-pixabay-461198.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+nav{
+    display: flex;
+}
+#navbtn{
+    position: absolute;
+    right: 0;
+}
+nav h1{
+    margin: 2px auto;
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.order{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.loc1{
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+}
+.order input{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 25px;
+
+}
+.order p{
+    font-size: 25px;
+}
+.order a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu p a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.menu p a:hover{
+    font-size: 20px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#main .container{
+    background-color: #ffffff57;
+    width: 250px;
+    height: 400px;
+    margin: 0 auto;
+}
+#main3{
+    border-radius: 20px;
+    display: flex;
+    height: 70vh;
+}
+.form #main3{
+    background-color: #ffffffa2;
+}
+#main3 .main-container{
+    text-align: center;
+    width:50%;
+}
+.form .side-container{
+    background: url("../img/MEE'S – 1.png") center;
+    background-size: cover;
+    border-radius: 0 20px 20px 0 ;
+    width: 60%;
+    margin-left: 5px;
+}
+.reserve .side-container{
+    margin: auto;
+}
+form input{
+    height: 30px;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #0084ff;
+    border-radius: 20px;;
+}
+.reserve input{
+    border-radius: 0;
+    border: 1px solid #000000
+
+}
+.content{
+    display: flex;
+}
+form .name{
+    width:50%;
+}
+form .surname{
+    width: 40%;
+    margin-left: 10%;
+}
+form .contact{
+    width: 98.5%;
+}
+form .textbox{
+    width: 100%;
+    height: 100px;
+}
+.submit{
+    width: 30%;
+    height:30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid#0084ff;
+}
+
+
+
+
+
+
